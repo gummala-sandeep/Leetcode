@@ -1,7 +1,7 @@
 class Solution {
     public boolean canConstruct(String s, int k) {
         int[] chs=new int[256];
-        int count=0;
+        int C=0;
         if(s.length()<k){
             return false;
         }
@@ -10,9 +10,10 @@ class Solution {
         }
         for(int i=0;i<256;i++){
             if(chs[i]%2==1){
-                count++;
+                C++;
             }
         }
-        return count<=k;
+        return C<=k;
     }
 }
+
