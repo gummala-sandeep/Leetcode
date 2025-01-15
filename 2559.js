@@ -1,3 +1,5 @@
+//2 january 2025
+
 class Solution {
     public int[] vowelStrings(String[] words, int[][] queries) {
         Set<Character> vowels = new HashSet<>(Arrays.asList('a', 'e', 'i', 'o', 'u'));       
