@@ -1,3 +1,6 @@
+//11 january 2025
+
+
 class Solution {
     public boolean canConstruct(String s, int k) {
         int[] chs=new int[256];
