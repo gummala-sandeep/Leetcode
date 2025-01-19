@@ -1,3 +1,5 @@
+//6 january 2025
+
 class Solution {
     public int[] minOperations(String boxes) {
         char[] s=boxes.toCharArray();
