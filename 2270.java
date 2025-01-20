@@ -1,3 +1,5 @@
+//3rd january 2025
+
 class Solution {
     public int waysToSplitArray(int[] nums) {
     long sum=0,count=0,res=0,numsSize=nums.length;
