@@ -4,8 +4,8 @@
 class Solution {
     public boolean canConstruct(String s, int k) {
         int[] chs=new int[256];
-        int C=0;
-        if(s.length()<k){
+        int C=0,n=s.length();
+        if(n<k){
             return false;
         }
         for(char c:s.toCharArray()){
