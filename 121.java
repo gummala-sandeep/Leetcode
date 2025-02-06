@@ -1,3 +1,5 @@
+//1st febraury 2025
+
 class Solution {
     public int maxProfit(int[] prices) {
         int min=prices[0],max=0,n=prices.length;
