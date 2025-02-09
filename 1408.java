@@ -1,4 +1,4 @@
-//7 january 2025
+//7th january 2025
 
 
 class Solution {
