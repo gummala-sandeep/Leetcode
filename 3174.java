@@ -34,11 +34,11 @@ class Solution {
         String r="";
         Stack<Character> res=new Stack<>();
         for(char c:s.toCharArray()){
-            if(Character.isDigit(c)){
-                res.pop();
+            if(c>='a'&&c<='z'){                
+                res.push(c);
             }
             else{
-                res.push(c);
+                res.pop();
             }
         }
         while(!res.isEmpty()){
