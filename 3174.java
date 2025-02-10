@@ -26,3 +26,25 @@ class Solution {
         return res;
     }
 }
+
+
+//second approach
+class Solution {
+    public String clearDigits(String s) {
+        String r="";
+        Stack<Character> res=new Stack<>();
+        for(char c:s.toCharArray()){
+            if(Character.isDigit(c)){
+                res.pop();
+            }
+            else{
+                res.push(c);
+            }
+        }
+        while(!res.isEmpty()){
+            r+=res.pop();
+        }
+        StringBuilder re=new StringBuilder(r);
+        return re.reverse().toString();
+    }
+}
