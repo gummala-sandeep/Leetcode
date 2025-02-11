@@ -16,3 +16,15 @@ class Solution {
         return res.toString();
     }
 }
+
+
+//2nd approach
+class Solution {
+    public String removeOccurrences(String s, String part) {
+        StringBuffer res=new StringBuffer(s);
+        while(res.indexOf(part)!=-1){
+            res.delete(res.indexOf(part),res.indexOf(part)+part.length());
+        }
+        return res.toString();
+    }
+}
