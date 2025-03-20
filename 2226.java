@@ -1,3 +1,6 @@
+//14th march 2025
+
+
 class Solution {
     public int maximumCandies(int[] candies, long k) {
         int avg=0,n=candies.length,low=1,high=0,ans=0;
