@@ -1,3 +1,6 @@
+sandeep
+
+
 class Solution {
     public int numberOfSubstrings(String s) {
      char[] ch=s.toCharArray();
