@@ -1,3 +1,5 @@
+//9 th march 2025
+
 class Solution {
     public int numberOfAlternatingGroups(int[] colors, int k) {
             int n=colors.length,count=0,w=0;
